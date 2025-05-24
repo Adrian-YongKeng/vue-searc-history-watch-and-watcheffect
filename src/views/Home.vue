@@ -82,6 +82,7 @@ export default {
   <div class="home">
     <h1>Home</h1>
     <input type="text" v-model="search" />
+
     <p>search term - {{ search }}</p>
     <div v-for="name in matchingNames" :key="name">{{ name }}</div>
 
